@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+stego_env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.profile
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# Environment variables
+.env
+.env.local
+.venv
+env/
+
+# Outputs & Results
+*.csv
+batch_results*.csv
+summary_averages*.csv
+stego_results_*.zip
+outputs/
+
+# Weights & Large Files (keep if needed for repo)
+# weights/*.pt
+# dataset/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Conda
+site-packages/
+conda-meta/
+
+# Generated
+infected.png
+*.png
+*.jpg
+__stego_data__
+
+# Dependencies (if using requirements.txt)
+!requirements.txt
+!requirements-dev.txt
