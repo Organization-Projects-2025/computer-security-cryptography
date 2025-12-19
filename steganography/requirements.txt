@@ -1,0 +1,8 @@
+torch
+torchvision
+pillow
+numpy
+scikit-image
+tk
+timm
+einops
